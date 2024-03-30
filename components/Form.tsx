@@ -2,14 +2,14 @@ import axios from 'axios';
 import { useCallback, useState } from 'react';
 import { toast } from 'react-hot-toast';
 
-import useLoginModal from '@/hooks/useLoginModal';
-import useRegisterModal from '@/hooks/useRegisterModal';
-import useCurrentUser from '@/hooks/useCurrentUser';
-import usePosts from '@/hooks/usePosts';
-import usePost from '@/hooks/usePost';
+import useLoginModal from "@/hooks/useLoginModal";
+import useRegisterModal from "@/hooks/useRegisterModal";
+import useCurrentUser from "@/hooks/useCurrentUser";
+import usePosts from "@/hooks/usePosts";
+import usePost from "@/hooks/usePost";
 
-import Avatar from './Avatar';
-import Button from './Button';
+import Avatar from "./Avatar";
+import Button from "./Button";
 
 interface FormProps {
   placeholder: string;
