@@ -6,7 +6,7 @@ import useLoginModal from "@/hooks/UseLoginModal";
 import useRegisterModal from "@/hooks/UseRegisterModal";
 import useCurrentUser from "@/hooks/useCurrentUser";
 import usePosts from "@/hooks/UsePosts";
-import usePost from "@/hooks/UsePost";
+import usePost from "@/hooks/usePost";
 
 import Avatar from "./Avatar";
 import Button from "./Button";

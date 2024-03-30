@@ -4,7 +4,7 @@ import { toast } from "react-hot-toast";
 
 import useCurrentUser from "./useCurrentUser";
 import useLoginModal from "./UseLoginModal";
-import usePost from "./UsePost";
+import usePost from "./usePost";
 import usePosts from "./UsePosts";
 
 const useLike = ({ postId, userId }: { postId: string, userId?: string }) => {
