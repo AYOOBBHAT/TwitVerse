@@ -3,7 +3,7 @@ import { useCallback, useMemo } from 'react';
 import { AiFillHeart, AiOutlineHeart, AiOutlineMessage } from 'react-icons/ai';
 import { formatDistanceToNowStrict } from 'date-fns';
 
-import useLoginModal from '@/hooks/useLoginModal';
+import useLoginModal from '@/hooks/UseLoginModal';
 import useCurrentUser from '@/hooks/useCurrentUser';
 import useLike from '@/hooks/useLike';
 

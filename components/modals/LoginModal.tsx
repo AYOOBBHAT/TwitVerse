@@ -2,7 +2,7 @@ import { signIn } from "next-auth/react";
 import { useCallback, useState } from "react";
 import { toast } from "react-hot-toast";
 
-import useLoginModal from "@/hooks/useLoginModal";
+import useLoginModal from "@/hooks/UseLoginModal";
 import useRegisterModal from "@/hooks/useRegisterModal";
 
 import Input from "../Input";

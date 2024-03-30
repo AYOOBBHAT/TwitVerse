@@ -3,7 +3,7 @@ import { toast } from "react-hot-toast";
 import { useCallback, useState } from "react";
 import { signIn } from 'next-auth/react';
 
-import useLoginModal from "@/hooks/useLoginModal";
+import useLoginModal from "@/hooks/UseLoginModal";
 import useRegisterModal from "@/hooks/useRegisterModal";
 
 import Input from "../Input";

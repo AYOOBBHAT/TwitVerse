@@ -5,7 +5,7 @@ import { FaFeather } from "react-icons/fa";
 import {useCallback} from "react";
 
 
-import useLoginModal from "@/hooks/useLoginModal";
+import useLoginModal from "@/hooks/UseLoginModal";
 import useCurrentUser from "@/hooks/useCurrentUser";
 
 const SidebarTweetButton=()=>{
