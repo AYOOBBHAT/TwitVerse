@@ -3,7 +3,7 @@ import { useCallback, useEffect, useState } from "react";
 import { toast } from "react-hot-toast";
 
 import useCurrentUser from "@/hooks/useCurrentUser";
-import useEditModal from "@/hooks/UseEditModal";
+import useEditModal from "@/hooks/useEditModal";
 import useUser from "@/hooks/useUser";
 
 import Input from "../Input";
