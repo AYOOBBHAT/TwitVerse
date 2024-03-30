@@ -4,7 +4,7 @@ import { toast } from "react-hot-toast";
 
 import useCurrentUser from "@/hooks/UseCurrentUser";
 import useEditModal from "@/hooks/UseEditModal";
-import useUser from "@/hooks/UseUser";
+import useUser from "@/hooks/useUser";
 
 import Input from "../Input";
 import Modal from "../Modal";

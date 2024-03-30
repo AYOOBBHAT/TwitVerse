@@ -4,7 +4,7 @@ import { toast } from "react-hot-toast";
 
 import useCurrentUser from "./UseCurrentUser";
 import useLoginModal from "./UseLoginModal";
-import useUser from "./UseUser";
+import useUser from "./useUser";
 
 const useFollow = (userId: string) => {
   const { data: currentUser, mutate: mutateCurrentUser } = useCurrentUser();

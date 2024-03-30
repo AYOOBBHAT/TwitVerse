@@ -3,7 +3,7 @@ import { BiCalendar } from "react-icons/bi";
 import { format } from "date-fns";
 
 import useCurrentUser from "@/hooks/UseCurrentUser";
-import useUser from "@/hooks/UseUser";
+import useUser from "@/hooks/useUser";
 import useFollow from "@/hooks/UseFollow";
 import useEditModal from "@/hooks/UseEditModal";
 
