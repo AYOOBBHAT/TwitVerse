@@ -5,7 +5,7 @@ import { toast } from 'react-hot-toast';
 import useLoginModal from "@/hooks/UseLoginModal";
 import useRegisterModal from "@/hooks/UseRegisterModal";
 import useCurrentUser from "@/hooks/useCurrentUser";
-import usePosts from "@/hooks/UsePosts";
+import usePosts from "@/hooks/usePosts";
 import usePost from "@/hooks/usePost";
 
 import Avatar from "./Avatar";
