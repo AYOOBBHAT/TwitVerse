@@ -2,7 +2,7 @@ import { useMemo } from "react";
 import { BiCalendar } from "react-icons/bi";
 import { format } from "date-fns";
 
-import useCurrentUser from "@/hooks/UseCurrentUser";
+import useCurrentUser from "@/hooks/useCurrentUser";
 import useUser from "@/hooks/useUser";
 import useFollow from "@/hooks/UseFollow";
 import useEditModal from "@/hooks/UseEditModal";

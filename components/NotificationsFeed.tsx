@@ -1,7 +1,7 @@
 import { BsTwitter } from "react-icons/bs";
 
 import useNotifications from "@/hooks/UseNotifications";
-import useCurrentUser from "@/hooks/UseCurrentUser";
+import useCurrentUser from "@/hooks/useCurrentUser";
 import { useEffect } from "react";
 
 const NotificationsFeed = () => {

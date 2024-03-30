@@ -2,7 +2,7 @@ import axios from "axios";
 import { useCallback, useEffect, useState } from "react";
 import { toast } from "react-hot-toast";
 
-import useCurrentUser from "@/hooks/UseCurrentUser";
+import useCurrentUser from "@/hooks/useCurrentUser";
 import useEditModal from "@/hooks/UseEditModal";
 import useUser from "@/hooks/useUser";
 

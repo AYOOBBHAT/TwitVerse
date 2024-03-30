@@ -4,7 +4,7 @@ import { toast } from 'react-hot-toast';
 
 import useLoginModal from "@/hooks/UseLoginModal";
 import useRegisterModal from "@/hooks/UseRegisterModal";
-import useCurrentUser from "@/hooks/UseCurrentUser";
+import useCurrentUser from "@/hooks/useCurrentUser";
 import usePosts from "@/hooks/UsePosts";
 import usePost from "@/hooks/UsePost";
 
