@@ -3,7 +3,7 @@ import { useCallback, useState } from "react";
 import { toast } from "react-hot-toast";
 
 import useLoginModal from "@/hooks/UseLoginModal";
-import useRegisterModal from "@/hooks/useRegisterModal";
+import useRegisterModal from "@/hooks/UseRegisterModal";
 
 import Input from "../Input";
 import Modal from "../Modal";

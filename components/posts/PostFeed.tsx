@@ -1,4 +1,4 @@
-import usePosts from '@/hooks/usePosts';
+import usePosts from '@/hooks/UsePosts';
 
 import PostItem from './PostItem';
 

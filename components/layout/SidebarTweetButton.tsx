@@ -6,7 +6,7 @@ import {useCallback} from "react";
 
 
 import useLoginModal from "@/hooks/UseLoginModal";
-import useCurrentUser from "@/hooks/useCurrentUser";
+import useCurrentUser from "@/hooks/UseCurrentUser";
 
 const SidebarTweetButton=()=>{
 

@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import { ClipLoader } from "react-spinners";
 
-import useUser from "@/hooks/useUser";
+import useUser from "@/hooks/UseUser";
 
 import PostFeed from "@/components/posts/PostFeed";
 import Header from "@/components/Header";

@@ -4,8 +4,8 @@ import { AiFillHeart, AiOutlineHeart, AiOutlineMessage } from 'react-icons/ai';
 import { formatDistanceToNowStrict } from 'date-fns';
 
 import useLoginModal from '@/hooks/UseLoginModal';
-import useCurrentUser from '@/hooks/useCurrentUser';
-import useLike from '@/hooks/useLike';
+import useCurrentUser from '@/hooks/UseCurrentUser';
+import useLike from '@/hooks/UseLike';
 
 import Avatar from '../Avatar';
 interface PostItemProps {

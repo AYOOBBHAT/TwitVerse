@@ -2,10 +2,10 @@ import axios from "axios";
 import { useCallback, useMemo } from "react";
 import { toast } from "react-hot-toast";
 
-import useCurrentUser from "./useCurrentUser";
+import useCurrentUser from "./UseCurrentUser";
 import useLoginModal from "./UseLoginModal";
-import usePost from "./usePost";
-import usePosts from "./usePosts";
+import usePost from "./UsePost";
+import usePosts from "./UsePosts";
 
 const useLike = ({ postId, userId }: { postId: string, userId?: string }) => {
   const { data: currentUser } = useCurrentUser();

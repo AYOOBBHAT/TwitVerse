@@ -3,7 +3,7 @@ import { IconType } from "react-icons";
 import { useRouter } from 'next/router';
 
 import useLoginModal from '@/hooks/UseLoginModal';
-import useCurrentUser from '@/hooks/useCurrentUser';
+import useCurrentUser from '@/hooks/UseCurrentUser';
 import { BsDot } from 'react-icons/bs';
 
 interface SidebarItemProps {

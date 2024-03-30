@@ -3,10 +3,10 @@ import { useCallback, useState } from 'react';
 import { toast } from 'react-hot-toast';
 
 import useLoginModal from "@/hooks/UseLoginModal";
-import useRegisterModal from "@/hooks/useRegisterModal";
-import useCurrentUser from "@/hooks/useCurrentUser";
-import usePosts from "@/hooks/usePosts";
-import usePost from "@/hooks/usePost";
+import useRegisterModal from "@/hooks/UseRegisterModal";
+import useCurrentUser from "@/hooks/UseCurrentUser";
+import usePosts from "@/hooks/UsePosts";
+import usePost from "@/hooks/UsePost";
 
 import Avatar from "./Avatar";
 import Button from "./Button";
